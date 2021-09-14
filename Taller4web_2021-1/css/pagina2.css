@@ -1,0 +1,24 @@
+.fondo1 {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Elegant_Background-6.jpg") #000;
+    background-repeat: no-repeat;
+}
+
+form {
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.icon{
+    padding-left: 6%;
+}
+
+.center-content{
+    text-align: center;
+}
+
+
+.espacio{
+    padding-top: 200px;
+    padding-left: 240px;
+}
