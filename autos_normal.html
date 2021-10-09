@@ -8,10 +8,12 @@
     <title>HTML</title>
 </head>
 <body>
-    <form class="rejilla">
-              <div>
+  <form>
+    <div class="entorno">
+      <div class="rejilla campo">
+              <div class="espacio">
                   Tipo de Combustible<br>
-                  <select class="browser-default">
+                  <select class="browser-default espacio">
                     <option value="1" disabled selected>HVO</option>
                     <option value="2">BioDisel</option>
                     <option value="3">BioGas</option>
@@ -50,7 +52,7 @@
                   </select>
               </div>
 
-              <div>
+              <div class="space3">
                   Marca del Coche <br>
                   <select class="browser-default">
                     <option value="Aston Martin" disabled selected>Aston Martin</option>
@@ -120,7 +122,7 @@
                   </select>
                 </div>
 
-                <div>
+                <div class="space3">
                   Tipo de Usuario<br>
                   <select class="browser-default">
                     <option value="1" disabled selected>Vehiculo Particular</option>
@@ -131,7 +133,7 @@
 
 
 
-                <div>
+                <div class="space3">
                   Pais<br>
                   <select class="browser-default">
                   <option value="AF" disabled selected>Afganistán</option>
@@ -386,45 +388,45 @@
                 <input id="detalle" type="text" class="validate">
               </div>
 
-              <div class="space2">
+              <div class="space4">
                 Caja del Vehiculo<br>
                 <input id="caja" type="number" class="validate">
               </div>
 
-              <div class="space2">
+              <div class="space4">
                 Motor del Vehiculo<br>
                 <input id="motor" type="number" class="validate">
               </div>
               
-              <div class="space2">
+              <div class="space4">
                 Fecha de Registro<br>
                 <input id="fecha_regis" type="date" class="validate">
               </div>
 
-              <div class="space2">
+              <div>
                 Precio<br>
                 <input id="precio" type="number" class="validate">
               </div>
 
-              <div class="space2">
+              <div>
                 Moneda<br>
                 <input id="moneda" type="text" class="validate">
               </div>
               
-              <div class="space2">
+              <div>
                 Informacion Extra<br>
                 <input id="info1" type="text" class="validate">
               </div>
             </div>
 
-            <div class="rejilla2">
+            <div class="rejilla2 campo">
 
-              <div class="space3">
+              <div>
                 Informacion Adicional del Vehiculo<br>
                 <textarea id="info2" class="materialize-textarea" data-length="120"></textarea>
               </div>
 
-              <div class="space3">
+              <div>
                 Descripcion Adicional del Coche<br>
                 <textarea id="info3" class="materialize-textarea" data-length="120"></textarea>
               </div>
@@ -433,7 +435,9 @@
             
             <div class="space">
                 <a href="" class="boton-personalizado">Registrar</a>
-              </div>
+            </div>
+              
+          </div>
 
           </form>
         </div>
